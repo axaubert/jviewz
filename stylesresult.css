@@ -1,0 +1,174 @@
+/* Demo Styles */
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  position: relative;
+  height: 100%;
+}
+/* = SWIPER
+********************************************************************************* */
+.swiper-container-vert,
+.swiper-container-horiz {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+}
+.swiper-wrapper {
+  position: relative;
+}
+/* pagination 
+************************** */
+.paginationMain {
+  position: absolute;
+  padding: 0 0 10px 0;
+  z-index: 100;
+  bottom: 0px;
+  width: 100%;
+  height: 36px;
+  background-image: url('../img/time-fond.jpg');
+  background-repeat: repeat-x;
+}
+.pagination {
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
+  font-family: 'Open Sans', sans-serif;
+  color: #A8A8A8;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 8px;
+  height: 20px;
+  margin-right: 5px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.swiper-container-horiz .swiper-pagination-switch {
+  width: 50px;
+}
+.pagination-vert {
+  position: absolute;
+  z-index: 20;
+  bottom: 10px;
+}
+.pagination-vert .swiper-pagination-switch {
+  display: inline-block;
+  width: 35px;
+  height: 38px;
+  border-radius: 8px;
+  background: #222;
+  background: url("../img/fleche-date.png") no-repeat scroll center 8px rgba(0, 0, 0, 0);
+  margin-right: 5px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.pagination-vert .swiper-active-switch {
+  background: none;
+}
+/* date 
+************************** */
+.date {
+  text-align: center;
+}
+#date_active {
+  position: absolute;
+  background-color: #615;
+  width: 50px;
+  height: 50px;
+  left: 0px;
+  bottom: 28px;
+  background: url('../img/fleche-date.png') center 28px no-repeat;
+  font-size: 20px;
+  display: none;
+}
+/* HOME
+********************************************************************************* */
+#home {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/home.jpg');
+  -webkit-background-size: cover;
+  /* pour Chrome et Safari */
+  -moz-background-size: cover;
+  /* pour Firefox */
+  -o-background-size: cover;
+  /* pour Opera */
+  background-size: cover;
+  /* version standardisée */
+}
+/* DNA
+********************************************************************************* */
+#btn_dna {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 60px;
+  height: 40px;
+  background-color: #000;
+  z-index: 20;
+  cursor: pointer;
+}
+#dna {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #654;
+}
+.dna_pagination {
+  position: absolute;
+  top: 0;
+}
+.dna_pagination .swiper-pagination-switch {
+  top: 0;
+}
+.dna_pagination #date_active {
+  top: 30px;
+}
+#slide1 {
+  background-image: url(../img/content/tim1.jpg);
+  background-size: cover;
+}
+.marque {
+  width: 1px;
+  height: 10px;
+  position: absolute;
+  bottom: 36px;
+  z-index: 101;
+  background-color: white;
+  left: 50%;
+}
+/* à virer */
+.red-slide {
+  background: #ca4040;
+}
+.blue-slide {
+  background: #4390ee;
+}
+.orange-slide {
+  background: #ff8604;
+}
+.green-slide {
+  background: #49a430;
+}
+.pink-slide {
+  background: #973e76;
+}
+.swiper-slide .title {
+  font-size: 42px;
+  margin-top: 80px;
+  margin-bottom: 0;
+  line-height: 45px;
+}
+/*home video*/
+#videohome {
+  position: absolute;
+  top: 0;
+}
